@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+.scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.swiper-pagination-bullet {
+  width: 7px !important;
+  height: 7px !important;
+  background: rgba(250, 255, 255, 0.2);
+  scale: 0.9 !important;
+}
+
+.swiper-pagination-bullet-active {
+  color: #fff;
+  background: white !important;
+  scale: 1 !important;
+}
