@@ -10,10 +10,8 @@
   },
   "dependencies": {
     "@auth/prisma-adapter": "^2.7.3",
-    "@emailjs/browser": "^4.4.1",
     "@hookform/resolvers": "^3.9.0",
     "@prisma/client": "^5.22.0",
-    "@react-email/components": "^0.0.25",
     "@stripe/react-stripe-js": "^2.8.0",
     "@stripe/stripe-js": "^4.3.0",
     "@tanstack/react-query": "^5.51.15",
@@ -22,7 +20,6 @@
     "bcryptjs": "^2.4.3",
     "date-fns": "^3.6.0",
     "google-auth-library": "^9.14.2",
-    "next": "14.1.1",
     "next-auth": "^5.0.0-beta.25",
     "nodemailer": "^6.9.16",
     "react": "^18",
@@ -30,7 +27,6 @@
     "react-dropzone": "^14.2.3",
     "react-hook-form": "^7.52.1",
     "react-icons": "^5.0.1",
-    "resend": "^4.0.1-alpha.0",
     "sonner": "^1.5.0",
     "stripe": "^16.8.0",
     "swiper": "^11.1.8",
@@ -41,6 +37,7 @@
   "devDependencies": {
     "@types/bcrypt": "^5.0.2",
     "@types/bcryptjs": "^2.4.6",
+    "@types/next": "^9.0.0",
     "@types/node": "^20",
     "@types/nodemailer": "^6.4.16",
     "@types/react": "^18",
@@ -48,9 +45,10 @@
     "autoprefixer": "^10.0.1",
     "eslint": "^8",
     "eslint-config-next": "14.1.1",
+    "next": "^15.0.3",
     "postcss": "^8",
     "prisma": "^5.22.0",
     "tailwindcss": "^3.3.0",
-    "typescript": "^5"
+    "typescript": "^5.6.3"
   }
 }
